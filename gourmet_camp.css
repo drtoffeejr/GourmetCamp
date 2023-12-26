@@ -1,0 +1,245 @@
+/* WHOLE PAGE SECTION */
+
+body {
+    margin: 0 auto;
+    width: 1100px;
+    min-width: 1100px;
+    background-color: white;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main_body {
+    width: 800px;
+}
+
+.section_box{
+    border-top: solid 1px #be1d1d;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* HEADER SECTION */
+
+.top_bar{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+
+.top_nav{
+    display: flex;
+    margin: auto 0px;
+    gap: 30px;
+}
+
+.top_link {
+    color: #be1d1d;
+}
+
+/* SEARCH BAR SECTION */
+
+.search_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdf4f4;
+    padding: 20px 0px;
+    margin: 30px 0px;
+}
+
+.search_bar input {
+    border: solid 1px grey;
+    padding: 10px 0px;
+    padding-left: 10px;
+}
+
+.search_bar input[type=text] {
+    background-color: white;
+    width: 400px;
+}
+
+.search_bar label {
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+#search_button {
+    background-image: url(images/icon_search.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-color: red;
+    padding-left: 35px;
+    padding-right: 10px;
+    color: white;
+}
+
+/* MAIN SECTION */
+
+.main_box {
+    display: flex;
+    gap: 40px;
+}
+
+/* AREA SECTION */
+
+.area_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 15px;
+}
+.area_link {
+    display: block;
+    width: 52px;
+    padding: 5px 0px;
+    border: solid 1px #80808052;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* GENRE SECTION */
+
+.food_genre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food_genre figure {
+    text-align: center;
+    border: solid 1px #80808052;
+    gap: 0px 20px;
+}
+.food_genre figcaption {
+    padding: 10px 20px;
+}
+
+/* SEPCIALTY SECTION */
+
+.specialty {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 15px;
+}
+.specialty_link {
+    padding: 5px 8px;
+    border: solid 1px #80808052;
+    font-size: 14px;
+}
+
+/* RECOMMENDED SECTION */
+
+.writers_recommended {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.writers_recommended figure {
+    text-align: center;
+    border: solid 1px #80808052;
+    background-color: #faf9f9;
+    padding: 20px;
+}
+.writers_recommended h3 {
+    padding: 20px 0px;
+}
+
+.writers_recommended figcaption {
+    text-align: left;
+    font-size: small;
+    line-height: 1.5;
+}
+
+/* USER REVIEW SECTION */
+
+.user_reviews {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.user_reviews figure {
+    width: 50%;
+    background-color: #faf9f9;
+    border: solid 1px #ddd;
+    padding: 20px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #80808033;
+}
+
+.reviewer img {
+    float: left;
+    margin-right: 10px;
+}
+
+.reviewer_name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.reviewer_detail {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.review_description {
+    text-align: left;
+}
+
+.review_content h3 {
+    padding: 20px 0px;
+}
+
+.review_content figcaption {
+    font-size: small;
+    line-height: 1.5;
+    padding-bottom: 20px
+}
+
+.review_pics {
+    display: flex;
+    gap: 10px;
+}
+
+/* AD BANNER SECTION */
+
+.right_bar {
+    display: flex;
+    flex-direction: column;
+}
+.ads img {
+    padding-bottom: 20px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+    display: flex;
+    border-top: solid 2px #80808033; 
+    padding: 40px 0px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.copyright {
+    font-size: 100%;
+    background-color: #dcd5d5;
+    padding: 20px 0px;
+    text-align: center;
+}
